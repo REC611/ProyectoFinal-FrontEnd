@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="container">
+        <div class="logo">
+            <img src="../../../assets/APLogo.png" id="logoAP">
+        </div>
+        <div class="redes">
+                <a href="https://github.com/REC611"><img src="../../../assets/github.png" id="github"></a>
+                <a href="https://www.instagram.com/julipuebla_"><img src="../../../assets/instagram.png" id="instagram"></a>
+                <a href="https://twitter.com/RONLPDA"><img src="../../../assets/twitter.png" id="twitter"></a>
+                <a href="https://www.linkedin.com/in/julian-puebla-badano-648810200/"><img src="../../../assets/linkedin.png" id="linkedin"></a>
+            <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">LogIn</button>
+            <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESION</button>           
+        </div>
+    </div>
+</div>
+
