@@ -18,8 +18,8 @@ export class NewProyectoComponent implements OnInit {
   }
 
   onCreate(): void {
-    const expe = new Proyecto(this.nombreE, this.descripcionE);
-    this.sProyecto.save(expe).subscribe(
+    const project = new Proyecto(this.nombreE, this.descripcionE);
+    this.sProyecto.save(project).subscribe(
       data => {
         alert("Proyecto añadido");
         this.router.navigate(['']);
