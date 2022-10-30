@@ -8,5 +8,6 @@ export const environment = {
     authDomain: 'fpbfront.firebaseapp.com',
     messagingSenderId: '424201364636',
   },
-  production: true
+  production: true,
+  URL: 'http://backendfpb.herokuapp.com/'
 };
