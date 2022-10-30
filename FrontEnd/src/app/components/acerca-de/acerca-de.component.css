@@ -20,12 +20,8 @@ div{
 }
 @media (max-width: 575px){
     #fotoperfil{
-        position: absolute;
-        width: 30%;
         border-radius: 25%;
         box-shadow: 3px 3px 3px whitesmoke;
-        left: 35%;
-        top:1170px;
     }
 }
 
